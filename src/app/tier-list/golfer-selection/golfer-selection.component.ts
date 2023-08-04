@@ -33,7 +33,13 @@ export class GolferSelectionComponent implements OnInit {
       });
 
     this.selection.changed.subscribe((change: SelectionChange<Golfer>) => {
-      this.selectedGolfer.emit(change.added[0]);
+      if (change.added.length > 0) {
+        // golfer selected
+        this.selectedGolfer.emit(change.added[0]);
+      } else {
+        // golfer deselected
+        this.selectedGolfer.emit({ name: '', tier: this.tierNumber });
+      }
     });
   }
 }

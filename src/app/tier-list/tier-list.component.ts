@@ -19,6 +19,9 @@ export class TierListComponent implements OnInit {
   ngOnInit() {}
 
   public golferSelected(golfer: Golfer) {
+    if (golfer) {
+      
+    }
     this.selectedGolfers[golfer.tier - 1] = golfer;
   }
 
