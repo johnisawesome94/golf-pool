@@ -1,0 +1,15 @@
+<mat-accordion [multi]="false" [displayMode]="'flat'">
+  <mat-expansion-panel *ngFor="let tier of [1, 2, 3, 4, 5, 6]">
+    <mat-expansion-panel-header>
+      <mat-panel-title>Tier {{ tier }}</mat-panel-title>
+      <mat-panel-description>
+        Current selection: {{ getSelectedGolfer(tier).name }}
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+
+    <app-golfer-selection
+      [tierNumber]="tier"
+      (selectedGolfer)="golferSelected($event)"
+    ></app-golfer-selection>
+  </mat-expansion-panel>
+</mat-accordion>

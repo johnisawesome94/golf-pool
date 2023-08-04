@@ -3,4 +3,10 @@
 
 body {
   font-family: Roboto, Arial, sans-serif;
+  margin: 0;
+}
+
+/* TODO: this is a lame way of doing things */
+div > .mat-expansion-panel-body {
+  padding: 0;
 }

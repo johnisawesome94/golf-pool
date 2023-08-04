@@ -1,0 +1,658 @@
+[
+  {
+    "name": "Cameron Young",
+    "tier": 1
+  },
+  {
+    "name": "Emiliano Grillo",
+    "tier": 1
+  },
+  {
+    "name": "Braxton Kinner",
+    "tier": 1
+  },
+  {
+    "name": "Hideki Matsuyama",
+    "tier": 1
+  },
+  {
+    "name": "Justin Thomas",
+    "tier": 1
+  },
+  {
+    "name": "Ryan Fox",
+    "tier": 1
+  },
+  {
+    "name": "Sahith Theegala",
+    "tier": 1
+  },
+  {
+    "name": "Sepp Straka",
+    "tier": 1
+  },
+  {
+    "name": "Sungjae Im",
+    "tier": 1
+  },
+  {
+    "name": "Tom Hoge",
+    "tier": 1
+  },
+  {
+    "name": "Tony Finau",
+    "tier": 1
+  },
+  {
+    "name": "Adam Hadwin",
+    "tier": 2
+  },
+  {
+    "name": "Adam Svensson",
+    "tier": 2
+  },
+  {
+    "name": "Alexander Noren",
+    "tier": 2
+  },
+  {
+    "name": "Billy Horschel",
+    "tier": 2
+  },
+  {
+    "name": "Cameron Davis",
+    "tier": 2
+  },
+  {
+    "name": "Thee J.T. Poston",
+    "tier": 2
+  },
+  {
+    "name": "Jacob Hess",
+    "tier": 2
+  },
+  {
+    "name": "Kyoung-Hoon Lee",
+    "tier": 2
+  },
+  {
+    "name": "Keith Mitchell",
+    "tier": 2
+  },
+  {
+    "name": "Matt Kuchar",
+    "tier": 2
+  },
+  {
+    "name": "Taylor Montgomery",
+    "tier": 2
+  },
+  {
+    "name": "Austin Eckroat",
+    "tier": 3
+  },
+  {
+    "name": "Brandon Wu",
+    "tier": 3
+  },
+  {
+    "name": "Chez Reavie",
+    "tier": 3
+  },
+  {
+    "name": "Christiaan Bezuidenhout",
+    "tier": 3
+  },
+  {
+    "name": "Eric Cole",
+    "tier": 3
+  },
+  {
+    "name": "Gary Woodland",
+    "tier": 3
+  },
+  {
+    "name": "Alex Peterson",
+    "tier": 3
+  },
+  {
+    "name": "J.J. Spaun",
+    "tier": 3
+  },
+  {
+    "name": "Justin Suh",
+    "tier": 3
+  },
+  {
+    "name": "Mackenzie Hughes",
+    "tier": 3
+  },
+  {
+    "name": "Mark Hubbard",
+    "tier": 3
+  },
+  {
+    "name": "Aaron Rai",
+    "tier": 4
+  },
+  {
+    "name": "Christiaan Bezuidenhout",
+    "tier": 4
+  },
+  {
+    "name": "Davis Thompson",
+    "tier": 4
+  },
+  {
+    "name": "Lee Hodges",
+    "tier": 4
+  },
+  {
+    "name": "Matthew NeSmith",
+    "tier": 4
+  },
+  {
+    "name": "Nicolai Hojgaard",
+    "tier": 4
+  },
+  {
+    "name": "Stephan Jaeger",
+    "tier": 4
+  },
+  {
+    "name": "Zac Blair",
+    "tier": 4
+  },
+  {
+    "name": "",
+    "tier": 4
+  },
+  {
+    "name": "",
+    "tier": 4
+  },
+  {
+    "name": "Beau Hossler",
+    "tier": 5
+  },
+  {
+    "name": "Ben Griffin",
+    "tier": 5
+  },
+  {
+    "name": "John Lundeen",
+    "tier": 5
+  },
+  {
+    "name": "Ben Taylor",
+    "tier": 5
+  },
+  {
+    "name": "Harry Hall",
+    "tier": 5
+  },
+  {
+    "name": "Lucas Glover",
+    "tier": 5
+  },
+  {
+    "name": "Sam Ryder",
+    "tier": 5
+  },
+  {
+    "name": "Sam Stevens",
+    "tier": 5
+  },
+  {
+    "name": "Taylor Pendrith",
+    "tier": 5
+  },
+  {
+    "name": "Trey Mullinax",
+    "tier": 5
+  },
+  {
+    "name": "",
+    "tier": 5
+  },
+  {
+    "name": "Aaron Baddeley",
+    "tier": 6
+  },
+  {
+    "name": "Adam Long",
+    "tier": 6
+  },
+  {
+    "name": "Alex Gaugert",
+    "tier": 6
+  },
+  {
+    "name": "Andrew Landry",
+    "tier": 6
+  },
+  {
+    "name": "Andrew Novak",
+    "tier": 6
+  },
+  {
+    "name": "Augusto Núñez",
+    "tier": 6
+  },
+  {
+    "name": "Austin Cook",
+    "tier": 6
+  },
+  {
+    "name": "Austin Smotherman",
+    "tier": 6
+  },
+  {
+    "name": "Ben Martin",
+    "tier": 6
+  },
+  {
+    "name": "Brandon Matthews",
+    "tier": 6
+  },
+  {
+    "name": "Brandt Snedeker",
+    "tier": 6
+  },
+  {
+    "name": "Brent Grant",
+    "tier": 6
+  },
+  {
+    "name": "Brian Gay",
+    "tier": 6
+  },
+  {
+    "name": "Brian Stuard",
+    "tier": 6
+  },
+  {
+    "name": "Brice Garnett",
+    "tier": 6
+  },
+  {
+    "name": "C.T. Pan",
+    "tier": 6
+  },
+  {
+    "name": "Caleb VanArragon",
+    "tier": 6
+  },
+  {
+    "name": "Callum Tarren",
+    "tier": 6
+  },
+  {
+    "name": "Cameron Champ",
+    "tier": 6
+  },
+  {
+    "name": "Cameron Percy",
+    "tier": 6
+  },
+  {
+    "name": "Carl Yuan",
+    "tier": 6
+  },
+  {
+    "name": "Carson Young",
+    "tier": 6
+  },
+  {
+    "name": "Chad Collins",
+    "tier": 6
+  },
+  {
+    "name": "Chad Ramey",
+    "tier": 6
+  },
+  {
+    "name": "Charley Hoffman",
+    "tier": 6
+  },
+  {
+    "name": "Nick Peterson",
+    "tier": 6
+  },
+  {
+    "name": "Chesson Hadley",
+    "tier": 6
+  },
+  {
+    "name": "Cody Gribble",
+    "tier": 6
+  },
+  {
+    "name": "Daniel Gale",
+    "tier": 6
+  },
+  {
+    "name": "David Hearn",
+    "tier": 6
+  },
+  {
+    "name": "David Lipsky",
+    "tier": 6
+  },
+  {
+    "name": "Derek Hitchner",
+    "tier": 6
+  },
+  {
+    "name": "Doc Redman",
+    "tier": 6
+  },
+  {
+    "name": "Doug Ghim",
+    "tier": 6
+  },
+  {
+    "name": "Dylan Frittelli",
+    "tier": 6
+  },
+  {
+    "name": "Dylan Wu",
+    "tier": 6
+  },
+  {
+    "name": "Eric Rolland",
+    "tier": 6
+  },
+  {
+    "name": "Erik van Rooyen",
+    "tier": 6
+  },
+  {
+    "name": "Frankie Capan",
+    "tier": 6
+  },
+  {
+    "name": "Garrick Higgo",
+    "tier": 6
+  },
+  {
+    "name": "Grayson Murray",
+    "tier": 6
+  },
+  {
+    "name": "Greyson Sigg",
+    "tier": 6
+  },
+  {
+    "name": "Hank Lebioda",
+    "tier": 6
+  },
+  {
+    "name": "Harrison Endycott",
+    "tier": 6
+  },
+  {
+    "name": "Harry Higgs",
+    "tier": 6
+  },
+  {
+    "name": "Henrik Norlander",
+    "tier": 6
+  },
+  {
+    "name": "James Hahn",
+    "tier": 6
+  },
+  {
+    "name": "Jason Dufner",
+    "tier": 6
+  },
+  {
+    "name": "Jim Herman",
+    "tier": 6
+  },
+  {
+    "name": "Jimmy Walker",
+    "tier": 6
+  },
+  {
+    "name": "Joel Dahmen",
+    "tier": 6
+  },
+  {
+    "name": "Jonathan Byrd",
+    "tier": 6
+  },
+  {
+    "name": "Justin Lower",
+    "tier": 6
+  },
+  {
+    "name": "Kaito Onishi",
+    "tier": 6
+  },
+  {
+    "name": "Kelly Kraft",
+    "tier": 6
+  },
+  {
+    "name": "Kevin Chappell",
+    "tier": 6
+  },
+  {
+    "name": "Kevin Roy",
+    "tier": 6
+  },
+  {
+    "name": "Kevin Streelman",
+    "tier": 6
+  },
+  {
+    "name": "Kevin Tway",
+    "tier": 6
+  },
+  {
+    "name": "Kevin Yu",
+    "tier": 6
+  },
+  {
+    "name": "Kramer Hickok",
+    "tier": 6
+  },
+  {
+    "name": "Kyle Westmoreland",
+    "tier": 6
+  },
+  {
+    "name": "Lanto Griffin",
+    "tier": 6
+  },
+  {
+    "name": "Ludvig Aberg",
+    "tier": 6
+  },
+  {
+    "name": "Martin Laird",
+    "tier": 6
+  },
+  {
+    "name": "Martin Trainer",
+    "tier": 6
+  },
+  {
+    "name": "Matt Wallace",
+    "tier": 6
+  },
+  {
+    "name": "Matthias Schwab",
+    "tier": 6
+  },
+  {
+    "name": "Matti Schmid",
+    "tier": 6
+  },
+  {
+    "name": "Max McGreevy",
+    "tier": 6
+  },
+  {
+    "name": "Michael Gligic",
+    "tier": 6
+  },
+  {
+    "name": "Michael Kim",
+    "tier": 6
+  },
+  {
+    "name": "MJ Daffue",
+    "tier": 6
+  },
+  {
+    "name": "Nate Lashley",
+    "tier": 6
+  },
+  {
+    "name": "Nick Hardy",
+    "tier": 6
+  },
+  {
+    "name": "Nick Watney",
+    "tier": 6
+  },
+  {
+    "name": "Nicolas Echavarria",
+    "tier": 6
+  },
+  {
+    "name": "Noah Hofman",
+    "tier": 6
+  },
+  {
+    "name": "Patton Kizzire",
+    "tier": 6
+  },
+  {
+    "name": "Paul Haley",
+    "tier": 6
+  },
+  {
+    "name": "Peter Kuest",
+    "tier": 6
+  },
+  {
+    "name": "Peter Malnati",
+    "tier": 6
+  },
+  {
+    "name": "Preston Summerhays",
+    "tier": 6
+  },
+  {
+    "name": "Richy Werenski",
+    "tier": 6
+  },
+  {
+    "name": "Robby Shelton",
+    "tier": 6
+  },
+  {
+    "name": "Robert Streb",
+    "tier": 6
+  },
+  {
+    "name": "Russell Knox",
+    "tier": 6
+  },
+  {
+    "name": "Ryan Armour",
+    "tier": 6
+  },
+  {
+    "name": "Ryan Brehm",
+    "tier": 6
+  },
+  {
+    "name": "Ryan Gerard",
+    "tier": 6
+  },
+  {
+    "name": "Ryan Moore",
+    "tier": 6
+  },
+  {
+    "name": "Ryan Palmer",
+    "tier": 6
+  },
+  {
+    "name": "S.H. Kim",
+    "tier": 6
+  },
+  {
+    "name": "S.Y. Noh",
+    "tier": 6
+  },
+  {
+    "name": "Sam Bennett",
+    "tier": 6
+  },
+  {
+    "name": "Satoshi Kodaira",
+    "tier": 6
+  },
+  {
+    "name": "Scott Harrington",
+    "tier": 6
+  },
+  {
+    "name": "Scott Piercy",
+    "tier": 6
+  },
+  {
+    "name": "Sean O’Hair",
+    "tier": 6
+  },
+  {
+    "name": "Stewart Cink",
+    "tier": 6
+  },
+  {
+    "name": "Tano Goya",
+    "tier": 6
+  },
+  {
+    "name": "Thomas Lehman",
+    "tier": 6
+  },
+  {
+    "name": "Trevor Cone",
+    "tier": 6
+  },
+  {
+    "name": "Trevor Werbylo",
+    "tier": 6
+  },
+  {
+    "name": "Troy Merritt",
+    "tier": 6
+  },
+  {
+    "name": "Tyler Duncan",
+    "tier": 6
+  },
+  {
+    "name": "Tyson Alexander",
+    "tier": 6
+  },
+  {
+    "name": "Vincent Norrman",
+    "tier": 6
+  },
+  {
+    "name": "Will Gordon",
+    "tier": 6
+  },
+  {
+    "name": "Zecheng Dou",
+    "tier": 6
+  }
+]

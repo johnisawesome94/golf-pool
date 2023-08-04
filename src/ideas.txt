@@ -1,0 +1,7 @@
+Main components:
+Tournament preparation
+Player selection
+Result monitoring
+
+result dashboard, and a more indepth result page?
+If you could compile hole-by-hole earnings that might be neat
