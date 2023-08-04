@@ -11,6 +11,7 @@ import { GolferSelectionService } from './golfer-selection.service';
   styleUrls: ['./golfer-selection.component.css'],
   standalone: true,
   imports: [MatTableModule, MatCheckboxModule],
+  providers: [GolferSelectionService],
 })
 export class GolferSelectionComponent implements OnInit {
   @Input() public tierNumber: number;
@@ -27,6 +28,7 @@ export class GolferSelectionComponent implements OnInit {
     this.golferSelectionService
       .getGolfers(this.tierNumber)
       .subscribe((golfers: Golfer[]) => {
+        console.log(golfers);
         this.dataSource.data = golfers;
       });
 

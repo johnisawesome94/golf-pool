@@ -12,7 +12,6 @@ import { GolferSelectionComponent } from './golfer-selection/golfer-selection.co
   styleUrls: ['./tier-list.component.css'],
 })
 export class TierListComponent implements OnInit {
-
   public selectedGolfers: Golfer[] = [];
 
   constructor() {}

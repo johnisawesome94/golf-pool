@@ -12,5 +12,6 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 export class ToolbarComponent implements OnInit {
   constructor() {}
 
-  ngOnInit() {}
+  ngOnInit() {
+  }
 }
