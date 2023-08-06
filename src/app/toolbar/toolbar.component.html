@@ -1,10 +1,7 @@
 <mat-toolbar color="primary">
-  <!-- <button
-    mat-icon-button
-    aria-label="bob"
-  >
+  <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="menu">
     <mat-icon>menu</mat-icon>
-  </button> -->
+  </button>
   <span>Golf Pool App</span>
   <!-- <span class="example-spacer"></span>
   <button
@@ -21,3 +18,16 @@
     <mat-icon>share</mat-icon>
   </button> -->
 </mat-toolbar>
+
+<mat-menu #menu="matMenu">
+  <button mat-menu-item [routerLink]="'/dashboard'">Dashboard</button>
+  <button mat-menu-item [routerLink]="'/tournament-prep'">
+    Tournament prep
+  </button>
+  <button mat-menu-item [routerLink]="'/player-selection'">
+    Player selection
+  </button>
+  <button mat-menu-item [routerLink]="'/result-monitor'">
+    Result monitoring
+  </button>
+</mat-menu>

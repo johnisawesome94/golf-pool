@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { MatExpansionModule } from '@angular/material/expansion';
-import { Golfer } from './golfer-selection/golfer';
+import { Golfer } from '../../models/golfer';
 import { GolferSelectionComponent } from './golfer-selection/golfer-selection.component';
 
 @Component({
@@ -20,7 +20,6 @@ export class TierListComponent implements OnInit {
 
   public golferSelected(golfer: Golfer) {
     if (golfer) {
-      
     }
     this.selectedGolfers[golfer.tier - 1] = golfer;
   }

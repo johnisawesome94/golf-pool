@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
-import { Golfer } from './golfer';
+import { Golfer } from 'src/app/models/golfer';
 import * as mockGolferData from './mock-golfers.json';
 
 @Injectable()

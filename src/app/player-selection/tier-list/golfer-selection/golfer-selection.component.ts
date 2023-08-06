@@ -2,7 +2,7 @@ import { SelectionChange, SelectionModel } from '@angular/cdk/collections';
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatTableDataSource, MatTableModule } from '@angular/material/table';
-import { Golfer } from './golfer';
+import { Golfer } from 'src/app/models/golfer';
 import { GolferSelectionService } from './golfer-selection.service';
 
 @Component({
@@ -28,7 +28,6 @@ export class GolferSelectionComponent implements OnInit {
     this.golferSelectionService
       .getGolfers(this.tierNumber)
       .subscribe((golfers: Golfer[]) => {
-        console.log(golfers);
         this.dataSource.data = golfers;
       });
 
