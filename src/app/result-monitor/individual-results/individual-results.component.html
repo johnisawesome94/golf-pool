@@ -11,14 +11,16 @@
 /> -->
   <mat-card-content>
     <mat-grid-list cols="8" rowHeight="50px">
-      <mat-grid-tile>User</mat-grid-tile>
-      <mat-grid-tile>Tier 1</mat-grid-tile>
-      <mat-grid-tile>Tier 2</mat-grid-tile>
-      <mat-grid-tile>Tier 3</mat-grid-tile>
-      <mat-grid-tile>Tier 4</mat-grid-tile>
-      <mat-grid-tile>Tier 5</mat-grid-tile>
-      <mat-grid-tile>Tier 6</mat-grid-tile>
-      <mat-grid-tile>Total winnings</mat-grid-tile>
+      <mat-grid-tile [style.background]="'light-blue'">User</mat-grid-tile>
+      <mat-grid-tile [style.background]="'light-blue'">Tier 1</mat-grid-tile>
+      <mat-grid-tile [style.background]="'light-blue'">Tier 2</mat-grid-tile>
+      <mat-grid-tile [style.background]="'light-blue'">Tier 3</mat-grid-tile>
+      <mat-grid-tile [style.background]="'light-blue'">Tier 4</mat-grid-tile>
+      <mat-grid-tile [style.background]="'light-blue'">Tier 5</mat-grid-tile>
+      <mat-grid-tile [style.background]="'light-blue'">Tier 6</mat-grid-tile>
+      <mat-grid-tile [style.background]="'light-blue'"
+        >Total winnings</mat-grid-tile
+      >
     </mat-grid-list>
     <mat-grid-list cols="8" rowHeight="50px">
       <mat-grid-tile *ngFor="let result of results">
