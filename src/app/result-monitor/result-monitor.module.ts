@@ -1,3 +1,4 @@
+import { NgFor } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
@@ -7,7 +8,7 @@ import { OverallResultsComponent } from './overall-results/overall-results.compo
 import { ResultMonitorComponent } from './result-monitor.component';
 
 @NgModule({
-  imports: [MatButtonModule, MatCardModule, MatGridListModule],
+  imports: [MatButtonModule, MatCardModule, MatGridListModule, NgFor],
   declarations: [
     IndividualResultsComponent,
     OverallResultsComponent,
