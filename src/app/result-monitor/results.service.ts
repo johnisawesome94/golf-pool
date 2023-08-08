@@ -10,6 +10,6 @@ export class ResultsService {
   constructor() {}
 
   public getGroupResults(): Observable<Result[]> {
-    return of(mockGolferData.results as Result[]);
+    return of(this.data.results as Result[]);
   }
 }
