@@ -9,12 +9,14 @@ import { ResultsService } from '../results.service';
   providers: [ResultsService],
 })
 export class IndividualResultsComponent implements OnInit {
+  public results: Result[] = [];
+
   constructor(private resultsService: ResultsService) {}
-  // constructor() {}
 
   ngOnInit() {
     console.log('got here');
     this.resultsService.getGroupResults().subscribe((results: Result[]) => {
+      this.results = results;
       console.log(results);
     });
   }
