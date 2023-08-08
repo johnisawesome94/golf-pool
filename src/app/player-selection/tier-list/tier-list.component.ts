@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { Golfer } from '../../models/golfer';
 import { GolferSelectionComponent } from './golfer-selection/golfer-selection.component';
@@ -13,15 +13,18 @@ import { GolferSelectionComponent } from './golfer-selection/golfer-selection.co
 })
 export class TierListComponent implements OnInit {
   public selectedGolfers: Golfer[] = [];
+  @Output() public golferSelections: EventEmitter<Golfer[]> = new EventEmitter<
+    Golfer[]
+  >();
 
   constructor() {}
 
   ngOnInit() {}
 
   public golferSelected(golfer: Golfer) {
-    if (golfer) {
-    }
     this.selectedGolfers[golfer.tier - 1] = golfer;
+
+    this.golferSelections.emit(this.selectedGolfers);
   }
 
   public getSelectedGolfer(tier: number): Golfer {

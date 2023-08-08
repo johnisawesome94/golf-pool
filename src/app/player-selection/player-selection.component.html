@@ -1,1 +1,7 @@
-<app-tier-list></app-tier-list>
+<div class="header-thing">
+  <p>Please select a golfer for each tier below.</p>
+  <button mat-raised-button color="primary" (click)="confirmSelections()">
+    Confirm selections
+  </button>
+</div>
+<app-tier-list (golferSelections)="setTierSelections($event)"></app-tier-list>
