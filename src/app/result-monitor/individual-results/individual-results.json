@@ -1,0 +1,49 @@
+{
+  "results": [
+    {
+      "user": {
+        "firstName": "Jacob",
+        "lastName": "Hess"
+      },
+      "golferSelections": [
+        {
+          "name": "Cameron Young",
+          "tier": 1,
+          "winnings": 0,
+          "tierRank": 7
+        },
+        {
+          "name": "Thee JT Poston",
+          "tier": 2,
+          "winnings": 590200,
+          "tierRank": 1
+        },
+        {
+          "name": "Mackenzie Hughes",
+          "tier": 3,
+          "winnings": 46744,
+          "tierRank": 1
+        },
+        {
+          "name": "Davis Thompson",
+          "tier": 4,
+          "winnings": 0,
+          "tierRank": 9
+        },
+        {
+          "name": "Taylor Pendrith",
+          "tier": 5,
+          "winnings": 0,
+          "tierRank": 9
+        },
+        {
+          "name": "Joel Dahment",
+          "tier": 6,
+          "winnings": 0,
+          "tierRank": 9
+        }
+      ],
+      "totalWinnings": 636944
+    }
+  ]
+}

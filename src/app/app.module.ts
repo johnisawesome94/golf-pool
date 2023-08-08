@@ -4,12 +4,14 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { AppRoutingModule } from './app-routing.module';
+import { ResultMonitorModule } from './result-monitor/result-monitor.module';
 
 @NgModule({
   imports: [
     AppRoutingModule,
     BrowserModule,
     BrowserAnimationsModule,
+    ResultMonitorModule,
     ToolbarComponent,
   ],
   declarations: [AppComponent],
