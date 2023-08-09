@@ -2,6 +2,56 @@
   "results": [
     {
       "user": {
+        "firstName": "Braxton",
+        "lastName": "Kinner",
+        "userName": "Cheek spreader"
+      },
+      "golferSelections": [
+        {
+          "name": "Sahith Theegala",
+          "tier": 1,
+          "winnings": 0,
+          "tierRank": 7,
+          "madeCut": "true"
+        },
+        {
+          "name": "Thee JT Poston",
+          "tier": 2,
+          "winnings": 590200,
+          "tierRank": 1,
+          "madeCut": "true"
+        },
+        {
+          "name": "Mark Hubbard",
+          "tier": 3,
+          "winnings": 0,
+          "tierRank": 3
+        },
+        {
+          "name": "Aaron Rai",
+          "tier": 4,
+          "winnings": 82179,
+          "tierRank": 2,
+          "madeCut": "true"
+        },
+        {
+          "name": "Lucas Glover",
+          "tier": 5,
+          "winnings": 0,
+          "tierRank": 9,
+          "madeCut": "true"
+        },
+        {
+          "name": "Daniel Gale",
+          "tier": 6,
+          "winnings": 0,
+          "tierRank": 9
+        }
+      ],
+      "totalWinnings": 672379
+    },
+    {
+      "user": {
         "firstName": "Jacob",
         "lastName": "Hess",
         "userName": "Leaky black"
@@ -11,7 +61,8 @@
           "name": "Cameron Young",
           "tier": 1,
           "winnings": 0,
-          "tierRank": 7
+          "tierRank": 7,
+          "madeCut": "true"
         },
         {
           "name": "Thee JT Poston",
@@ -47,55 +98,6 @@
         }
       ],
       "totalWinnings": 636944
-    },
-
-    {
-      "user": {
-        "firstName": "Braxton",
-        "lastName": "Kinner",
-        "userName": "Cheek spreader"
-      },
-      "golferSelections": [
-        {
-          "name": "Sahith Theegala",
-          "tier": 1,
-          "winnings": 0,
-          "tierRank": 7
-        },
-        {
-          "name": "Thee JT Poston",
-          "tier": 2,
-          "winnings": 590200,
-          "tierRank": 1,
-          "madeCut": "true"
-        },
-        {
-          "name": "Mark Hubbard",
-          "tier": 3,
-          "winnings": 0,
-          "tierRank": 3
-        },
-        {
-          "name": "Aaron Rai",
-          "tier": 4,
-          "winnings": 82179,
-          "tierRank": 2,
-          "madeCut": "true"
-        },
-        {
-          "name": "Lucas Glover",
-          "tier": 5,
-          "winnings": 0,
-          "tierRank": 9
-        },
-        {
-          "name": "Daniel Gale",
-          "tier": 6,
-          "winnings": 0,
-          "tierRank": 9
-        }
-      ],
-      "totalWinnings": 672379
     }
   ]
 }
