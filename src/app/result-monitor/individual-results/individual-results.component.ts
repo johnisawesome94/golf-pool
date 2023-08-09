@@ -1,5 +1,6 @@
 import { CurrencyPipe } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
+import { GolferResult } from '../../models/golfer-result';
 import { Result } from '../../models/result';
 import { ResultsService } from '../results.service';
 
@@ -20,5 +21,15 @@ export class IndividualResultsComponent implements OnInit {
       this.results = results;
       console.log(results);
     });
+  }
+
+  public getTileBackgroundColor(golferResult: GolferResult): string {
+    if (golferResult.winnings === 0) {
+      return 'lightcoral';
+    } else if (golferResult.tierRank === 1) {
+      return 'lightgreen';
+    } else {
+      return 'lightblue';
+    }
   }
 }

@@ -22,28 +22,104 @@
         >Total winnings</mat-grid-tile
       >
     </mat-grid-list>
-    <mat-grid-list *ngFor="let result of results" cols="8" rowHeight="50px">
-      <mat-grid-tile [style.background]="'lightblue'">{{
-        result.user.userName
-      }}</mat-grid-tile>
-      <mat-grid-tile [style.background]="'lightblue'">{{
-        result.golferSelections[0].name
-      }}</mat-grid-tile>
-      <mat-grid-tile [style.background]="'lightblue'">{{
-        result.golferSelections[1].name
-      }}</mat-grid-tile>
-      <mat-grid-tile [style.background]="'lightblue'">{{
-        result.golferSelections[2].name
-      }}</mat-grid-tile>
-      <mat-grid-tile [style.background]="'lightblue'">{{
-        result.golferSelections[3].name
-      }}</mat-grid-tile>
-      <mat-grid-tile [style.background]="'lightblue'">{{
-        result.golferSelections[4].name
-      }}</mat-grid-tile>
-      <mat-grid-tile [style.background]="'lightblue'">{{
-        result.golferSelections[5].name
-      }}</mat-grid-tile>
+    <mat-grid-list *ngFor="let result of results" cols="8" rowHeight="70px">
+      <mat-grid-tile [style.background]="'lightblue'">
+        {{ result.user.userName }}</mat-grid-tile
+      >
+      <mat-grid-tile
+        [style.background]="getTileBackgroundColor(result.golferSelections[0])"
+      >
+        <div class="result-display">
+          <span [ngClass]="
+          result.golferSelections[0].madeCut ? 'null' : 'strikethrough'
+        ">
+            {{ result.golferSelections[0].name }}
+          </span>
+          <span>
+            {{ result.golferSelections[0].winnings | currency: 'USD' }}
+          </span>
+        </div>
+      </mat-grid-tile>
+      <mat-grid-tile
+        [style.background]="getTileBackgroundColor(result.golferSelections[1])"
+      >
+        <div class="result-display">
+          <span
+            [ngClass]="
+              result.golferSelections[1].madeCut ? 'null' : 'strikethrough'
+            "
+          >
+            {{ result.golferSelections[1].name }}
+          </span>
+          <span>
+            {{ result.golferSelections[1].winnings | currency: 'USD' }}
+          </span>
+        </div>
+      </mat-grid-tile>
+      <mat-grid-tile
+        [style.background]="getTileBackgroundColor(result.golferSelections[2])"
+      >
+        <div class="result-display">
+          <span
+            [ngClass]="
+              result.golferSelections[2].madeCut ? 'null' : 'strikethrough'
+            "
+          >
+            {{ result.golferSelections[2].name }}
+          </span>
+          <span>
+            {{ result.golferSelections[2].winnings | currency: 'USD' }}
+          </span>
+        </div>
+      </mat-grid-tile>
+      <mat-grid-tile
+        [style.background]="getTileBackgroundColor(result.golferSelections[3])"
+      >
+        <div class="result-display">
+          <span
+            [ngClass]="
+              result.golferSelections[3].madeCut ? 'null' : 'strikethrough'
+            "
+          >
+            {{ result.golferSelections[3].name }}
+          </span>
+          <span>
+            {{ result.golferSelections[3].winnings | currency: 'USD' }}
+          </span>
+        </div>
+      </mat-grid-tile>
+      <mat-grid-tile
+        [style.background]="getTileBackgroundColor(result.golferSelections[4])"
+      >
+        <div class="result-display">
+          <span
+            [ngClass]="
+              result.golferSelections[4].madeCut ? 'null' : 'strikethrough'
+            "
+          >
+            {{ result.golferSelections[4].name }}
+          </span>
+          <span>
+            {{ result.golferSelections[4].winnings | currency: 'USD' }}
+          </span>
+        </div>
+      </mat-grid-tile>
+      <mat-grid-tile
+        [style.background]="getTileBackgroundColor(result.golferSelections[5])"
+      >
+        <div class="result-display">
+          <span
+            [ngClass]="
+              result.golferSelections[5].madeCut ? 'null' : 'strikethrough'
+            "
+          >
+            {{ result.golferSelections[5].name }}
+          </span>
+          <span>
+            {{ result.golferSelections[5].winnings | currency: 'USD' }}
+          </span>
+        </div>
+      </mat-grid-tile>
       <mat-grid-tile [style.background]="'lightblue'">{{
         result.totalWinnings | currency: 'USD'
       }}</mat-grid-tile>
