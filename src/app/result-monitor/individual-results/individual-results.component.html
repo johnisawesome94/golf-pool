@@ -22,10 +22,31 @@
         >Total winnings</mat-grid-tile
       >
     </mat-grid-list>
-    <mat-grid-list cols="8" rowHeight="50px">
-      <mat-grid-tile *ngFor="let result of results">
-        {{ result.user.userName }}
-      </mat-grid-tile>
+    <mat-grid-list *ngFor="let result of results" cols="8" rowHeight="50px">
+      <mat-grid-tile [style.background]="'lightblue'">{{
+        result.user.userName
+      }}</mat-grid-tile>
+      <mat-grid-tile [style.background]="'lightblue'">{{
+        result.golferSelections[0].name
+      }}</mat-grid-tile>
+      <mat-grid-tile [style.background]="'lightblue'">{{
+        result.golferSelections[1].name
+      }}</mat-grid-tile>
+      <mat-grid-tile [style.background]="'lightblue'">{{
+        result.golferSelections[2].name
+      }}</mat-grid-tile>
+      <mat-grid-tile [style.background]="'lightblue'">{{
+        result.golferSelections[3].name
+      }}</mat-grid-tile>
+      <mat-grid-tile [style.background]="'lightblue'">{{
+        result.golferSelections[4].name
+      }}</mat-grid-tile>
+      <mat-grid-tile [style.background]="'lightblue'">{{
+        result.golferSelections[5].name
+      }}</mat-grid-tile>
+      <mat-grid-tile [style.background]="'lightblue'">{{
+        result.totalWinnings | currency: 'USD'
+      }}</mat-grid-tile>
     </mat-grid-list>
   </mat-card-content>
   <!-- TODO: do we need any actions? -->

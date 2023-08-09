@@ -1,3 +1,4 @@
+import { CurrencyPipe } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { Result } from '../../models/result';
 import { ResultsService } from '../results.service';
